@@ -1,0 +1,19 @@
+{
+  "name": "chinese-simplified-traditional-transform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "中文简繁转换网页工具：支持双向转换、地区变体与 GBK/Big5 编码，构建产物为单文件 HTML，双击即可离线使用",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "opencc-js": "^1.4.1"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}

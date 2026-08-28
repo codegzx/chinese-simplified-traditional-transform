@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>繁转简</title>
+  </head>
+  <body>
+    <main class="app">
+      <section class="toolbar">
+        <input id="fileInput" type="file" accept=".txt,text/plain" />
+        <button id="convertBtn" type="button" disabled>转换</button>
+        <button id="downloadBtn" type="button" disabled>下载</button>
+      </section>
+      <section class="panes">
+        <label>
+          <span>原文</span>
+          <textarea id="sourceText" readonly></textarea>
+        </label>
+        <label>
+          <span>简体</span>
+          <textarea id="resultText" readonly></textarea>
+        </label>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
